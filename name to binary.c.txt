@@ -13,8 +13,8 @@ void name_to_binary(char*name){
 int main(){
 char name[100];
 printf("Enter your name:");
-if(scanf("%99",&name)!1){
-printf("Error opening the file");
+if(scanf("%99s",name)!=1){
+printf("Error reading the input");
 return 1;
 }
 printf("Binary form:");
