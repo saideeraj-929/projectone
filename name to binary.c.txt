@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.h>
+
 void name_to_binary(char*name){
 	while(*name){
 		int i;
@@ -17,7 +17,8 @@ if(scanf("%99s",name)!=1){
 printf("Error reading the input");
 return 1;
 }
-printf("Binary form:");
+printf("Binary form:\n");
 name_to_binary(name);
+printf("\n"
 return 0;
 }
