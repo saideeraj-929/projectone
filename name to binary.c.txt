@@ -19,6 +19,6 @@ return 1;
 }
 printf("Binary form:\n");
 name_to_binary(name);
-printf("\n"
+printf("\n");
 return 0;
 }
