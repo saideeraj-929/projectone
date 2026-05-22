@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 void name_to_binary(char*name){
 	while(*name){
 		int i;
@@ -12,7 +13,10 @@ void name_to_binary(char*name){
 int main(){
 char name[100];
 printf("Enter your name:");
-scanf("%s",&name);
+if(scanf("%99",&name)!1){
+printf("Error opening the file");
+return 1;
+}
 printf("Binary form:");
 name_to_binary(name);
 return 0;
