@@ -217,6 +217,17 @@ A simple Python tool that checks the strength of a password and gives suggestion
    You may obtain a copy of the License at
 
        http://www.apache.org/licenses/LICENSE-2.0
+  # 🤖 Emoji Chatbot
+
+A simple Python chatbot that responds with fun emojis!  
+This project is designed as a beginner-friendly way to learn Python, Git, and GitHub workflows.
+
+---
+
+## ✨ Features
+- Responds to greetings, emotions, and keywords with emojis.
+- Runs in the terminal/command line.
+- Easy to extend with new
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
