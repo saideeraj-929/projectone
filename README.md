@@ -234,3 +234,36 @@ This project is designed as a beginner-friendly way to learn Python, Git, and Gi
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+  # Student Management System
+
+A simple Python project to manage student records using file handling.
+
+## Features
+
+* Add Student Record
+* View Student Records
+* Search Student
+* Delete Student
+* Store records in file
+
+## Technologies Used
+
+* Python
+* File Handling
+
+## Project Structure
+
+```text
+student-management-system/
+│
+├── main.py
+├── students.txt
+└── README.md
+```
+
+## How to Run
+
+```bash
+python main.py
+```
+
