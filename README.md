@@ -266,4 +266,4 @@ student-management-system/
 ```bash
 python main.py
 ```
-
+![image alt](image_url)https://raw.githubusercontent.com/sr283909-collab/projectone/33e3d2aaf7d05701bc1200f2d016c88a32bdba92/student%20manegement%20.py.png
