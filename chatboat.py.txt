@@ -1,0 +1,71 @@
+import urllib.request
+import json
+from datetime import datetime
+
+print("==Smart Chat Bot==")
+print("Type 'bye' to exit\n")
+
+# Function to get weather using Weatherstack
+def get_weather(city):
+    api_key = "YOUR_WEATHERSTACK_KEY"  # Replace with your Weatherstack API key
+    url = f"http://api.weatherstack.com/current?access_key={api_key}&query={city}"
+    try:
+        with urllib.request.urlopen(url) as response:
+            data = json.loads(response.read().decode())
+            print("DEBUG: Raw API response:", data)  # helpful for troubleshooting
+            
+            if "current" in data:
+                temperature = data["current"]["temperature"]
+                weather_desc = data["current"]["weather_descriptions"][0]
+                return f"Temperature: {temperature}°C\nCondition: {weather_desc}"
+            else:
+                return f"Error: {data.get('error', {}).get('info', 'Unable to fetch weather')}"
+    except Exception as e:
+        return f"Error fetching weather: {e}"
+
+while True:
+    user = input("You: ").lower()
+    
+    if "hello" in user or "hi" in user:
+        print("Bot: Hello, nice to meet you!")
+        
+    elif "your name" in user:
+        print("Bot: My name is Python Chat Bot 🤖")
+
+    elif "time" in user:
+        current_time = datetime.now().strftime("%H:%M:%S")
+        print("Bot: Current time:", current_time)
+
+    elif "date" in user:
+        today = datetime.today().strftime("%Y-%m-%d")
+        print("Bot: Today's date:", today)
+
+    elif "2+2" in user:
+        print("Bot: 2 + 2 = 4")
+    
+    elif "5*5" in user:
+        print("Bot: 5 * 5 = 25")
+
+    elif "about python" in user:
+        print("Bot: Python is one of the best programming languages, easy to learn.")
+
+    elif "about c" in user:
+        print("Bot: C is a basic programming language and also very powerful.")
+
+    elif "how are you" in user:
+        print("Bot: I am good, thanks for asking ☺")
+
+    elif "help" in user:
+        print("Bot: I can help you with C, Python, date, time, maths, and weather.")
+
+    elif "weather" in user:
+        city = input("Bot: Please enter city name: ")
+        print("Bot:", get_weather(city))
+
+    elif "bye" in user:
+        print("Bot: Goodbye!")
+        break
+
+    else:
+        print("Bot: Sorry, I don't know the answer.")
+
