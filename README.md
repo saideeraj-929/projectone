@@ -123,6 +123,9 @@ A simple quiz game made using Python.
 
 ```bash
 python quiz.py
+![Quiz Game Screenshot](image.png)https://github.com/sr283909-collab/projectone/blob/master/Screenshot%202026-06-03%20184607.png?raw=true
+
+
 ## ⭐ Contributing
 
 Contributions, suggestions, and improvements are welcome.
