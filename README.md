@@ -100,6 +100,29 @@ This project is licensed under the Apache License 2.0. See the LICENSE file for 
 
 ---
 
+
+# Python Quiz Game 🎯
+
+A simple quiz game made using Python.
+
+## Features
+- Multiple questions
+- Score tracking
+- User input checking
+- Beginner friendly project
+
+## Technologies Used
+- Python
+
+## How to Run
+
+1. Install Python
+2. Download the project
+3. Open terminal in project folder
+4. Run:
+
+```bash
+python quiz.py
 ## ⭐ Contributing
 
 Contributions, suggestions, and improvements are welcome.
