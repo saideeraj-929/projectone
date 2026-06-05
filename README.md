@@ -131,3 +131,33 @@ python quiz.py
 Contributions, suggestions, and improvements are welcome.
 
 If you find this repository helpful, consider giving it a star ⭐.
+# 🧮 Python Calculator Program
+
+## Overview
+This is a simple **menu-driven calculator** written in Python.  
+It supports basic arithmetic operations:
+- Addition
+- Subtraction
+- Multiplication
+- Division (with error handling for division by zero)
+
+The program uses a loop-based menu system so you can perform multiple calculations until you choose to exit.
+
+---
+
+## Features
+✅ Add two numbers  
+✅ Subtract two numbers  
+✅ Multiply two numbers  
+✅ Divide two numbers (safe handling for zero)  
+✅ Handles invalid input gracefully  
+✅ Menu-driven interface  
+
+---
+
+## Usage
+
+### Run the program
+```bash
+python calculator.py
+
