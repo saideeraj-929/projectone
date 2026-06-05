@@ -157,7 +157,15 @@ The program uses a loop-based menu system so you can perform multiple calculatio
 
 ## Usage
 
+
+
+
+
+
 ### Run the program
 ```bash
 python calculator.py
+
+![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/8ca00c7de1fd6f07ede56fc938f45b95a1ec1bb7/copy%20cone%20cali.png
+
 
