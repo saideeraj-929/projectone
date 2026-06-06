@@ -168,4 +168,37 @@ python calculator.py
 
 ![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/0bceb77633f11865ce8ac4f7ff84ded9a8e669a4/Calculator%20screenshot
 
+# Simple Login System 🔐
+
+A beginner-friendly Python login and registration system using file handling.
+
+## Features
+
+* User Registration
+* User Login
+* Password Verification
+* Error Handling
+* File Storage System
+
+## Technologies Used
+
+* Python
+* File Handling
+* Functions
+* Loops
+* Conditions
+
+## How to Run
+
+```bash
+python login.py
+```
+
+## Future Improvements
+
+* GUI using Tkinter
+* Password encryption
+* Admin panel
+* Forgot password feature
+
 
