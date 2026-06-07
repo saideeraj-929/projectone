@@ -232,4 +232,4 @@ This project performs basic arithmetic operations with an easy-to-use graphical 
 ## 📷 Screenshot
 
 ```md
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/c663dfca66e58872f28f40d7e70bd9af0a428e76/Screenshot%202026-06-07%20125921.png
