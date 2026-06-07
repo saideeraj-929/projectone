@@ -202,3 +202,34 @@ python login.py
 * Forgot password feature
 
 ![login system screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/df77cf541126b2e2b51ec43e6ccb7b0ed635881e/login%20system%20screenshot.png
+
+# 🧮 Tkinter Calculator App
+
+A simple GUI Calculator built using Python and Tkinter.  
+This project performs basic arithmetic operations with an easy-to-use graphical interface.
+
+---
+
+## 🚀 Features
+
+✅ Addition  
+✅ Subtraction  
+✅ Multiplication  
+✅ Division  
+✅ Divide-by-zero error handling  
+✅ Simple and beginner-friendly GUI  
+✅ Interactive buttons and input fields  
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Tkinter GUI Library
+
+---
+
+## 📷 Screenshot
+
+```md
+![Calculator Screenshot](screenshot.png)
