@@ -1,16 +1,16 @@
 # 🚀 Mini Projects Collection
 
-A collection of beginner-friendly Python and C projects created to practice programming, problem-solving, and GitHub workflows.
+A collection of beginner-friendly Python and C projects created to practice programming, problem-solving, GUI development, and GitHub workflows.
 
 ---
 
-## 📂 Projects Included
+# 📂 Projects Included
 
-### 1. Binary Name Converter in C
+## 1. Binary Name Converter in C
 
 Converts a user's name into its binary ASCII representation.
 
-**Example**
+### Example
 
 Input:
 DJ
@@ -18,278 +18,234 @@ DJ
 Output:
 01000100 01001010
 
-**Technologies Used**
+### Technologies Used
 
 * C
 * GCC Compiler
 
 ---
 
-### 2. Password Strength Checker 🔐
+## 2. Password Strength Checker 🔐
 
 A Python tool that checks password strength and provides suggestions for improvement.
 
-**Features**
+### Features
 
 * Rates passwords as Weak, Medium, or Strong
-* Checks for:
+* Checks:
 
-  * Minimum length (8 characters)
+  * Minimum length
   * Uppercase letters
   * Lowercase letters
   * Numbers
   * Special characters
 
-**Technologies Used**
+### Technologies Used
 
 * Python
 
 ---
 
-### 3. 🤖 Emoji Chatbot
+## 3. 🤖 Emoji Chatbot
 
 A simple Python chatbot that responds with fun emojis.
 
-**Features**
+### Features
 
 * Responds to greetings and emotions
-* Runs in the terminal
-* Easy to customize and extend
+* Terminal-based chatbot
+* Easy to customize
 
-**Technologies Used**
+### Technologies Used
 
 * Python
 
 ---
 
-### 4. 🎓 Student Management System
+## 4. 🎓 Student Management System
 
 A Python project that manages student records using file handling.
 
-**Features**
+### Features
 
 * Add Student Record
 * View Student Records
 * Search Student
 * Delete Student
-* Store records in a file
+* File Storage System
 
-**Technologies Used**
+### Technologies Used
 
 * Python
 * File Handling
 
 ---
 
-## 🛠️ Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/projectone.git
-cd projectone
-```
-
-Navigate to any project folder and follow the instructions provided in its README file.
-
----
-
-## 📜 License
-
-This project is licensed under the Apache License 2.0. See the LICENSE file for details.
-
----
-
-
-# Python Quiz Game 🎯
+## 5. 🎯 Python Quiz Game
 
 A simple quiz game made using Python.
 
-## Features
-- Multiple questions
-- Score tracking
-- User input checking
-- Beginner friendly project
+### Features
 
-## Technologies Used
-- Python
+* Multiple questions
+* Score tracking
+* User input checking
+* Beginner-friendly project
 
-## How to Run
+### Technologies Used
 
-1. Install Python
-2. Download the project
-3. Open terminal in project folder
-4. Run:
+* Python
 
-```bash
+### Run
+
+```bash id="c9w8d7"
 python quiz.py
-![Quiz Game Screenshot](image.png)https://github.com/sr283909-collab/projectone/blob/master/Screenshot%202026-06-03%20184607.png?raw=true
+```
 
+### Screenshot
 
-## ⭐ Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-If you find this repository helpful, consider giving it a star ⭐.
-# 🧮 Python Calculator Program
-
-## Overview
-This is a simple **menu-driven calculator** written in Python.  
-It supports basic arithmetic operations:
-- Addition
-- Subtraction
-- Multiplication
-- Division (with error handling for division by zero)
-
-The program uses a loop-based menu system so you can perform multiple calculations until you choose to exit.
+![Quiz Game Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Screenshot%202026-06-03%20184607.png?raw=true)
 
 ---
 
-## Features
-✅ Add two numbers  
-✅ Subtract two numbers  
-✅ Multiply two numbers  
-✅ Divide two numbers (safe handling for zero)  
-✅ Handles invalid input gracefully  
-✅ Menu-driven interface  
+## 6. 🧮 Python Calculator Program
 
----
+A menu-driven calculator written in Python.
 
-## Usage
+### Features
 
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Division-by-zero handling
+* Loop-based menu system
 
+### Technologies Used
 
+* Python
 
+### Run
 
-
-### Run the program
-```bash
+```bash id="e6r5t4"
 python calculator.py
+```
 
-![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/0bceb77633f11865ce8ac4f7ff84ded9a8e669a4/Calculator%20screenshot
+### Screenshot
 
-# Simple Login System 🔐
+![Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Calculator%20screenshot.png?raw=true)
+
+---
+
+## 7. 🔐 Simple Login System
 
 A beginner-friendly Python login and registration system using file handling.
 
-## Features
+### Features
 
 * User Registration
 * User Login
 * Password Verification
 * Error Handling
-* File Storage System
+* File Storage
 
-## Technologies Used
+### Technologies Used
 
 * Python
 * File Handling
-* Functions
-* Loops
-* Conditions
 
-## How to Run
+### Run
 
-```bash
+```bash id="y3u2i1"
 python login.py
 ```
 
-## Future Improvements
+### Screenshot
 
-* GUI using Tkinter
-* Password encryption
-* Admin panel
-* Forgot password feature
-
-![login system screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/df77cf541126b2e2b51ec43e6ccb7b0ed635881e/login%20system%20screenshot.png
-
-# 🧮 Tkinter Calculator App
-
-A simple GUI Calculator built using Python and Tkinter.  
-This project performs basic arithmetic operations with an easy-to-use graphical interface.
+![Login System Screenshot](https://github.com/saideeraj-929/projectone/blob/main/login%20system%20screenshot.png?raw=true)
 
 ---
 
-## 🚀 Features
+## 8. 🧮 Tkinter Calculator App
 
-✅ Addition  
-✅ Subtraction  
-✅ Multiplication  
-✅ Division  
-✅ Divide-by-zero error handling  
-✅ Simple and beginner-friendly GUI  
-✅ Interactive buttons and input fields  
+A GUI calculator built using Python and Tkinter.
+
+### Features
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Error Handling
+* Interactive GUI
+
+### Technologies Used
+
+* Python
+* Tkinter
+
+### Screenshot
+
+![Tkinter Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Screenshot%202026-06-07%20125921.png?raw=true)
 
 ---
 
-## 🛠️ Technologies Used
-
-- Python
-- Tkinter GUI Library
-
----
-
-## 📷 Screenshot
-
-```md
-![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/c663dfca66e58872f28f40d7e70bd9af0a428e76/Screenshot%202026-06-07%20125921.png
-
-
-# Password Manager 🔐
+## 9. 🔐 Password Manager
 
 A simple Password Manager application built using Python and Tkinter.
 
-## Features
+### Features
 
-* Generate strong random passwords
-* Save website, username, and password
+* Generate strong passwords
+* Save website credentials
 * Dark mode GUI
-* Error handling for empty fields
-* Stores passwords in a text file
+* Error handling
+* File storage system
 
-## Technologies Used
+### Technologies Used
 
 * Python
 * Tkinter
 * Random Module
 * String Module
 
-## How It Works
+### Run
 
-1. Enter website name
-2. Enter username
-3. Click "Generate Password"
-4. Click "Save Password"
-5. Password data is saved into `passwords.txt`
-
-## File Structure
-
-password-manager/
-│
-├── main.py
-├── passwords.txt
-└── README.md
-
-## How to Run
-
-Install Python first.
-
-Run the program:
-
+```bash id="o0p9q8"
 python main.py
+```
 
-## Example Saved Data
+### Screenshot
 
-Website: gmail | Username: sai | Password: A@9xP#2mQ!k1
+![Password Manager Screenshot](https://github.com/saideeraj-929/projectone/blob/main/password%20maneger%20screenshot.png?raw=true)
 
-## Future Improvements
+---
 
-* Copy password button
-* Password hiding
-* Search saved passwords
-* Custom password length
-* Better UI design
-![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/754f4fa3bc1f4d5ef63dc8ef340622d8e6ff830f/password%20maneger%20screenshot.png
-## Author
+# 🛠️ Getting Started
+
+Clone the repository:
+
+```bash id="l7k6j5"
+git clone https://github.com/saideeraj-929/projectone.git
+cd projectone
+```
+
+---
+
+# 📜 License
+
+This project is licensed under the Apache License 2.0.
+
+---
+
+# ⭐ Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+If you find this repository helpful, consider giving it a star ⭐.
+
+---
+
+# 👨‍💻 Author
 
 Created by Sai Deeraj
