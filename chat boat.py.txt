@@ -1,57 +1,70 @@
-print("==Smart chat boat==")
-print("Type 'bye' to exsit\n")
+import urllib.request
+import json
+from datetime import datetime
+
+print("==Smart Chat Bot==")
+print("Type 'bye' to exit\n")
+
+def get_weather(city):
+    api_key = "f14f02dff3e4d9bcca7b8c9187bd0b20"  # your OpenWeatherMap API key
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+    try:
+        with urllib.request.urlopen(url) as response:
+            data = json.loads(response.read().decode())
+            print("DEBUG: Raw API response:", data)  # <-- shows exactly what API returned
+            
+            if data.get("cod") == 200:
+                main = data["main"]
+                temperature = main["temp"]
+                weather_desc = data["weather"][0]["description"]
+                return f"Temperature: {temperature}°C\nCondition: {weather_desc}"
+            else:
+                return f"Error: {data.get('message', 'Unable to fetch weather')}"
+    except Exception as e:
+        return f"Error fetching weather: {e}"
 
 while True:
-    user = input("You:").lower()
+    user = input("You: ").lower()
     
-    if "hello"in user or "hi"in user :
-        print("Bot: hello nice to meet you!")
+    if "hello" in user or "hi" in user:
+        print("Bot: Hello, nice to meet you!")
         
-    # Asking name
-    elif "your name"in user:
-        print("Bot: my name is python chat boat 🤖")
+    elif "your name" in user:
+        print("Bot: My name is Python Chat Bot 🤖")
 
-        #Asking time
+    elif "time" in user:
+        current_time = datetime.now().strftime("%H:%M:%S")
+        print("Bot: Current time:", current_time)
 
-    elif "time"in user:
-        from datetime import datetime
-        current_time=datetime.now().strftime("%H:%M:%S")
-        print("Current time:",current_time)
-    #Asking date
+    elif "date" in user:
+        today = datetime.today().strftime("%Y-%m-%d")
+        print("Bot: Today's date:", today)
 
-    elif "date"in user:
-
-        from datetime import datetime
-        today=datetime.today()
-        print("Today date:",today) 
-
-       # maths equation 
-
-    elif "2+2"in user:
-        print(" Bot:2+2=4")
+    elif "2+2" in user:
+        print("Bot: 2 + 2 = 4")
     
     elif "5*5" in user:
         print("Bot: 5 * 5 = 25")
-    #About python
-    elif "about python"in user:
-        print("Python is a one of the best programing language .easy to learn")
-        
-    # About C
-    elif "about c"in user:
-        print("C is  a basic programing language and also powerful language.")
-    elif "How are you"in user:
-        print("I am good, thanks for asking☺")
 
-    # Help
+    elif "about python" in user:
+        print("Bot: Python is one of the best programming languages, easy to learn.")
 
-    elif "help"in user:
-        print("I can help you in this c,python,date,time,maths")
+    elif "about c" in user:
+        print("Bot: C is a basic programming language and also very powerful.")
+
+    elif "how are you" in user:
+        print("Bot: I am good, thanks for asking ☺")
+
+    elif "help" in user:
+        print("Bot: I can help you with C, Python, date, time, maths, and weather.")
+
+    elif "weather" in user:
+        city = input("Bot: Please enter city name (e.g., tirupati,in): ")
+        print("Bot:", get_weather(city))
 
     elif "bye" in user:
         print("Bot: Goodbye!")
         break
 
-    # Default answer
     else:
         print("Bot: Sorry, I don't know the answer.")
-    

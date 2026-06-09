@@ -37,7 +37,21 @@ else:
     print("Wrong!")
 
 print()
+# Question 4
+answer = input("What is the correct spelling of pyton?")
+if answer.lower() == "python"
+    print("Correct!")
+    score +=1
+esle:
+    print("Wrong")
+# Question 5
+answer = input("How many months in a year?")
+if answer.lower() == "12"
+    print("Correct!")
+    score +=1
+esle:
+    print("Wrong")
 
 # Final Score
 print("Quiz Finished!")
-print("Your score is:", score, "/ 3")
+print("Your score is:", score, "/ 5")
