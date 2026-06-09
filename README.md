@@ -289,7 +289,7 @@ Website: gmail | Username: sai | Password: A@9xP#2mQ!k1
 * Search saved passwords
 * Custom password length
 * Better UI design
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/754f4fa3bc1f4d5ef63dc8ef340622d8e6ff830f/password%20maneger%20screenshot.png
 ## Author
 
 Created by Sai Deeraj
