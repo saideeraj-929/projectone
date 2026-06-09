@@ -233,3 +233,63 @@ This project performs basic arithmetic operations with an easy-to-use graphical 
 
 ```md
 ![Calculator Screenshot](screenshot.png)https://github.com/sr283909-collab/projectone/blob/c663dfca66e58872f28f40d7e70bd9af0a428e76/Screenshot%202026-06-07%20125921.png
+
+
+# Password Manager 🔐
+
+A simple Password Manager application built using Python and Tkinter.
+
+## Features
+
+* Generate strong random passwords
+* Save website, username, and password
+* Dark mode GUI
+* Error handling for empty fields
+* Stores passwords in a text file
+
+## Technologies Used
+
+* Python
+* Tkinter
+* Random Module
+* String Module
+
+## How It Works
+
+1. Enter website name
+2. Enter username
+3. Click "Generate Password"
+4. Click "Save Password"
+5. Password data is saved into `passwords.txt`
+
+## File Structure
+
+password-manager/
+│
+├── main.py
+├── passwords.txt
+└── README.md
+
+## How to Run
+
+Install Python first.
+
+Run the program:
+
+python main.py
+
+## Example Saved Data
+
+Website: gmail | Username: sai | Password: A@9xP#2mQ!k1
+
+## Future Improvements
+
+* Copy password button
+* Password hiding
+* Search saved passwords
+* Custom password length
+* Better UI design
+![Calculator Screenshot](screenshot.png)
+## Author
+
+Created by Sai Deeraj
