@@ -122,8 +122,6 @@ btn_style = {
     "font": ("Arial", 18),
     "width": 5,
     "height": 2,
-    "bg": "gray15",
-    "fg": "cyan",
     "activebackground": "cyan",
     "activeforeground": "black",
     "bd": 3
