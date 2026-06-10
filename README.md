@@ -249,3 +249,54 @@ If you find this repository helpful, consider giving it a star ⭐.
 # 👨‍💻 Author
 
 Created by Sai Deeraj
+# Scientific Calculator 🔥
+
+A modern Scientific Calculator built using Python and Tkinter.
+
+## Features ✨
+
+* Basic operations (+, -, ×, ÷)
+* Square root calculation
+* Square calculation
+* Backspace button
+* Calculation history
+* Keyboard Enter support
+* Modern neon dark UI
+* Error handling popup
+
+## Technologies Used 🛠️
+
+* Python
+* Tkinter
+* Math Module
+
+## Screenshot 📸
+
+Add your calculator screenshot here.
+
+## How to Run ▶️
+
+```bash id="m8v2q5"
+python Calculator.py
+```
+
+## Project Structure 📂
+
+```text id="u3k7p1"
+Calculator.py
+README.md
+screenshot.png
+```
+
+## Future Improvements 🚀
+
+* Percentage button
+* Themes
+* Scientific functions
+* Memory buttons
+* Better keyboard support
+
+## Author 👨‍💻
+
+Sai Deeraj
+
