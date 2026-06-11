@@ -301,3 +301,61 @@ screenshot.png
 
 Sai Deeraj
 
+# Tkinter Greeting App
+
+## Description
+
+A simple Python Tkinter application that greets the user by name.
+
+The app allows users to:
+
+* Enter their name
+* Display a greeting message
+* Clear the input and output
+* Exit the application
+
+## Features
+
+* User-friendly GUI
+* Greeting message display
+* Input validation for empty names
+* Clear button
+* Exit button
+
+## Technologies Used
+
+* Python
+* Tkinter
+
+## How to Run
+
+1. Install Python on your computer.
+2. Save the file as `greeting_app.py`.
+3. Open a terminal in the project folder.
+4. Run:
+
+python greeting_app.py
+
+## Project Structure
+
+tkinter-greeting-app/
+├── greeting_app.py
+├── README.md
+└── screenshot.png
+
+## Screenshot
+
+
+## What I Learned
+
+* Tkinter GUI development
+* Functions and event handling
+* Entry, Label, and Button widgets
+* Input validation using if-else
+* Clearing Entry widgets with `delete()`
+* Closing applications using `destroy()`
+
+## Author
+
+Sai deeraj
+
