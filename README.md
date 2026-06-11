@@ -345,7 +345,7 @@ tkinter-greeting-app/
 
 ## Screenshot
 
-
+![Greetings screenshot](screenshot)https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png
 ## What I Learned
 
 * Tkinter GUI development
