@@ -359,3 +359,66 @@ tkinter-greeting-app/
 
 Sai deeraj
 
+# 🎓 Student Record Manager
+
+A simple Student Record Manager application built using Python and Tkinter. This project allows users to add, view, delete, and save student records through an easy-to-use graphical interface.
+
+## 🚀 Features
+
+* Add student records
+* Delete selected student records
+* Save records to a file
+* Automatically load saved records on startup
+* User-friendly Tkinter GUI
+* Input validation with warning messages
+
+## 🛠 Technologies Used
+
+* Python
+* Tkinter
+* File Handling
+
+## 📂 Project Structure
+
+```text
+Student_Record_Manager.py
+students.txt
+README.md
+```
+
+## ▶️ How to Run
+
+1. Install Python.
+2. Download or clone this repository.
+3. Open the project folder.
+4. Run the program:
+
+```bash
+python Student_Record_Manager.py
+```
+
+## 📸 Screenshot
+
+
+## 📚 What I Learned
+
+* Tkinter GUI development
+* Labels, Entry widgets, Buttons, and Listbox
+* Functions and event handling
+* File handling (save and load data)
+* Basic project organization
+
+## 🔮 Future Improvements
+
+* Edit student records
+* Search student records
+* Student ID system
+* Export records to CSV
+* Dark mode interface
+
+## 👨‍💻 Author
+
+**Sai Deeraj**
+
+Learning Python, Tkinter, Git, and GitHub 🚀
+
