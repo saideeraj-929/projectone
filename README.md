@@ -398,7 +398,7 @@ python Student_Record_Manager.py
 ```
 
 ## 📸 Screenshot
-
+[student manegement screenshot]https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png
 
 ## 📚 What I Learned
 
