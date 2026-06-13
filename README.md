@@ -422,3 +422,52 @@ python Student_Record_Manager.py
 
 Learning Python, Tkinter, Git, and GitHub 🚀
 
+
+# Expense Tracker
+
+A simple Expense Tracker application built using Python and Tkinter. This app helps users record daily expenses, calculate the total amount spent, and save expense data automatically.
+
+## Features
+
+* Add new expenses
+* Delete selected expenses
+* Clear all expenses
+* Automatic total amount calculation
+* Save expenses to a file
+* Load saved expenses when the app starts
+* Input validation using message boxes
+* Simple and user-friendly interface
+
+## Technologies Used
+
+* Python
+* Tkinter
+
+## How to Run
+
+1. Install Python on your computer.
+2. Download the project files.
+3. Open a terminal in the project folder.
+4. Run:
+
+```bash
+python Expenses_Tracker.py
+```
+
+## Project Screenshot
+
+
+
+## Author
+
+**Sai Deeraj**
+
+## Future Improvements
+
+* Expense categories
+* Search expenses
+* Monthly expense reports
+* Expense charts and graphs
+* Dark mode support
+
+
