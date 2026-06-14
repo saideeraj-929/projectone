@@ -470,4 +470,96 @@ python Expenses_Tracker.py
 * Expense charts and graphs
 * Dark mode support
 
+# 🏋️ BMI Calculator
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Author](https://img.shields.io/badge/Author-Sai%20Deeraj-orange)
+
+---
+
+## 📖 About The Project
+
+This is a simple BMI (Body Mass Index) Calculator built using Python and Tkinter. Users can enter their weight and height to calculate their BMI and view their health category.
+
+---
+
+## ✨ Features
+
+✅ Calculate BMI instantly
+
+✅ Display BMI value
+
+✅ Show BMI category
+
+✅ Simple Tkinter GUI
+
+✅ Easy to use
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Tkinter
+
+---
+
+## 📊 BMI Categories
+
+| BMI Range    | Category      |
+| ------------ | ------------- |
+| Below 18.5   | Underweight   |
+| 18.5 - 24.9  | Normal Weight |
+| 25 - 29.9    | Overweight    |
+| 30 and Above | Obese         |
+
+---
+
+## 🧮 BMI Formula
+
+BMI = Weight (kg) / Height² (m²)
+
+---
+
+## 📸 Screenshot
+
+Add your screenshot here.
+
+```md
+![BMI Calculator](screenshots/bmi_calculator.png)
+```
+
+---
+
+## 🚀 How To Run
+
+1. Install Python.
+2. Download the project files.
+3. Open a terminal in the project folder.
+4. Run:
+
+```bash
+python BMI_Calculator.py
+```
+
+---
+
+## 👨‍💻 Author
+
+**Sai Deeraj**
+
+---
+
+## 🔮 Future Improvements
+
+* Better UI Design
+* Save BMI History
+* Dark Mode
+* Data Storage Support
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
 
