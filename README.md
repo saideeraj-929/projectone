@@ -528,7 +528,7 @@ BMI = Weight (kg) / Height² (m²)
 Add your screenshot here.
 
 ```md
-![BMI Calculator](screenshots)https://github.com/saideeraj-929/projectone/blob/0fe6344944407cf448f7db33558add12f0e8af8f/BMI_App%20screensot.png)
+![BMI screenshots]https://github.com/saideeraj-929/projectone/blob/0fe6344944407cf448f7db33558add12f0e8af8f/BMI_App%20screensot.png)
 ```
 
 ---
