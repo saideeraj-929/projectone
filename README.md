@@ -527,8 +527,7 @@ BMI = Weight (kg) / Height² (m²)
 
 Add your screenshot here.
 
-```md
-```
+```![BMI screenshot Screenshot](https://github.com/saideeraj-929/projectone/blob/3e2930876f1fdf1d2fbd7fc82b37754622440193/BMI%20screenshot.png)
 
 ---
 
