@@ -296,7 +296,7 @@ screenshot.png
 * Memory buttons
 * Better keyboard support
 
-![calculator Screenshot]https://github.com/saideeraj-929/projectone/blob/e97d98621470fc832a8c4e04ef79afe14ac025f7/upgrade%20calculator%20screenshot.png
+![calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/e97d98621470fc832a8c4e04ef79afe14ac025f7/upgrade%20calculator%20screenshot.png)
 ## Author 👨‍💻
 
 Sai Deeraj
@@ -345,7 +345,7 @@ tkinter-greeting-app/
 
 ## Screenshot
 
-![Greetings screenshot](screenshot)https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png
+![Greetings screenshot screenshot](https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png)
 ## What I Learned
 
 * Tkinter GUI development
@@ -398,7 +398,7 @@ python Student_Record_Manager.py
 ```
 
 ## 📸 Screenshot
-[student manegement screenshot]https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png
+[student manegement screenshot](https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png)
 
 ## 📚 What I Learned
 
@@ -456,7 +456,7 @@ python Expenses_Tracker.py
 
 ## Project Screenshot
 
-![Expense Tracker screenshots]https://github.com/saideeraj-929/projectone/blob/de5ce5b96bca9102a3181470abd8f503ca108e0b/Expenses_tracker%20screenshot.png
+![Expense Tracker screenshots](https://github.com/saideeraj-929/projectone/blob/de5ce5b96bca9102a3181470abd8f503ca108e0b/Expenses_tracker%20screenshot.png)
 
 ## Author
 
@@ -528,7 +528,7 @@ BMI = Weight (kg) / Height² (m²)
 Add your screenshot here.
 
 ```md
-![BMI screenshots]https://github.com/saideeraj-929/projectone/blob/0fe6344944407cf448f7db33558add12f0e8af8f/BMI_App%20screensot.png)
+![BMI Screenshot](https://raw.githubusercontent.com/saideeraj-929/projectone/0fe6344944407cf448f7db33558add12f0e8af8f/BMI_App%20screensot.png)
 ```
 
 ---
