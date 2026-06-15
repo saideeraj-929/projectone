@@ -1,0 +1,150 @@
+import tkinter as tk
+from tkinter import messagebox
+import random
+import string
+
+# ---------------- WINDOW ----------------
+window = tk.Tk()
+window.title("Password Manager")
+window.geometry("500x500")
+window.config(bg="black")
+
+# ---------------- FUNCTIONS ----------------
+
+# Generate Password
+def generate_password():
+
+    length = 12
+
+    characters = (
+        string.ascii_letters +
+        string.digits +
+        string.punctuation
+    )
+
+    password = ""
+
+    for i in range(length):
+        password += random.choice(characters)
+
+    password_entry.delete(0, tk.END)
+    password_entry.insert(0, password)
+
+# Save Password
+def save_password():
+
+    website = website_entry.get()
+    username = username_entry.get()
+    password = password_entry.get()
+
+    if website == "" or username == "" or password == "":
+        messagebox.showerror("Error", "Fill all fields")
+
+    else:
+        with open("passwords.txt", "a") as file:
+
+            file.write(
+                f"Website: {website} | "
+                f"Username: {username} | "
+                f"Password: {password}\n"
+            )
+
+        messagebox.showinfo("Saved", "Password Saved")
+
+        website_entry.delete(0, tk.END)
+        username_entry.delete(0, tk.END)
+        password_entry.delete(0, tk.END)
+
+# ---------------- TITLE ----------------
+title = tk.Label(
+    window,
+    text="Password Manager",
+    font=("Arial", 24, "bold"),
+    bg="black",
+    fg="white"
+)
+
+title.pack(pady=20)
+
+# ---------------- WEBSITE ----------------
+website_label = tk.Label(
+    window,
+    text="Website",
+    font=("Arial", 14),
+    bg="black",
+    fg="white"
+)
+
+website_label.pack()
+
+website_entry = tk.Entry(
+    window,
+    font=("Arial", 16),
+    width=30
+)
+
+website_entry.pack(pady=10)
+
+# ---------------- USERNAME ----------------
+username_label = tk.Label(
+    window,
+    text="Username",
+    font=("Arial", 14),
+    bg="black",
+    fg="white"
+)
+
+username_label.pack()
+
+username_entry = tk.Entry(
+    window,
+    font=("Arial", 16),
+    width=30
+)
+
+username_entry.pack(pady=10)
+
+# ---------------- PASSWORD ----------------
+password_label = tk.Label(
+    window,
+    text="Password",
+    font=("Arial", 14),
+    bg="black",
+    fg="white"
+)
+
+password_label.pack()
+
+password_entry = tk.Entry(
+    window,
+    font=("Arial", 16),
+    width=30
+)
+
+password_entry.pack(pady=10)
+
+# ---------------- BUTTONS ----------------
+generate_btn = tk.Button(
+    window,
+    text="Generate Password",
+    font=("Arial", 14),
+    bg="gray20",
+    fg="white",
+    command=generate_password
+)
+
+generate_btn.pack(pady=10)
+
+save_btn = tk.Button(
+    window,
+    text="Save Password",
+    font=("Arial", 14),
+    bg="darkgreen",
+    fg="white",
+    command=save_password
+)
+
+save_btn.pack(pady=10)
+
+# ---------------- RUN ----------------
+window.mainloop()
