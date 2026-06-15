@@ -296,7 +296,11 @@ screenshot.png
 * Memory buttons
 * Better keyboard support
 
+<<<<<<< HEAD
 ![calculator Screenshot]https://github.com/saideeraj-929/projectone/blob/e97d98621470fc832a8c4e04ef79afe14ac025f7/upgrade%20calculator%20screenshot.png
+=======
+![calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/e97d98621470fc832a8c4e04ef79afe14ac025f7/upgrade%20calculator%20screenshot.png)
+>>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
 ## Author 👨‍💻
 
 Sai Deeraj
@@ -345,7 +349,11 @@ tkinter-greeting-app/
 
 ## Screenshot
 
+<<<<<<< HEAD
 ![Greetings screenshot](screenshot)https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png
+=======
+![Greetings screenshot screenshot](https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png)
+>>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
 ## What I Learned
 
 * Tkinter GUI development
@@ -398,7 +406,11 @@ python Student_Record_Manager.py
 ```
 
 ## 📸 Screenshot
+<<<<<<< HEAD
 [student manegement screenshot]https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png
+=======
+[student manegement screenshot](https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png)
+>>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
 
 ## 📚 What I Learned
 
@@ -456,7 +468,11 @@ python Expenses_Tracker.py
 
 ## Project Screenshot
 
+<<<<<<< HEAD
 ![Expense Tracker screenshots]https://github.com/saideeraj-929/projectone/blob/de5ce5b96bca9102a3181470abd8f503ca108e0b/Expenses_tracker%20screenshot.png
+=======
+![Expense Tracker screenshots](https://github.com/saideeraj-929/projectone/blob/de5ce5b96bca9102a3181470abd8f503ca108e0b/Expenses_tracker%20screenshot.png)
+>>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
 
 ## Author
 
@@ -470,4 +486,97 @@ python Expenses_Tracker.py
 * Expense charts and graphs
 * Dark mode support
 
+<<<<<<< HEAD
+=======
+# 🏋️ BMI Calculator
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Author](https://img.shields.io/badge/Author-Sai%20Deeraj-orange)
+
+---
+
+## 📖 About The Project
+
+This is a simple BMI (Body Mass Index) Calculator built using Python and Tkinter. Users can enter their weight and height to calculate their BMI and view their health category.
+
+---
+
+## ✨ Features
+
+✅ Calculate BMI instantly
+
+✅ Display BMI value
+
+✅ Show BMI category
+
+✅ Simple Tkinter GUI
+
+✅ Easy to use
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Tkinter
+
+---
+
+## 📊 BMI Categories
+
+| BMI Range    | Category      |
+| ------------ | ------------- |
+| Below 18.5   | Underweight   |
+| 18.5 - 24.9  | Normal Weight |
+| 25 - 29.9    | Overweight    |
+| 30 and Above | Obese         |
+
+---
+
+## 🧮 BMI Formula
+
+BMI = Weight (kg) / Height² (m²)
+
+---
+
+## 📸 Screenshot
+
+Add your screenshot here.
+
+![BMI Screenshot](https://github.com/saideeraj-929/projectone/blob/3e2930876f1fdf1d2fbd7fc82b37754622440193/BMI%20screenshot.png)
+
+---
+
+## 🚀 How To Run
+
+1. Install Python.
+2. Download the project files.
+3. Open a terminal in the project folder.
+4. Run:
+
+```bash
+python BMI_Calculator.py
+```
+
+---
+
+## 👨‍💻 Author
+
+**Sai Deeraj**
+
+---
+
+## 🔮 Future Improvements
+
+* Better UI Design
+* Save BMI History
+* Dark Mode
+* Data Storage Support
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
+>>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
 

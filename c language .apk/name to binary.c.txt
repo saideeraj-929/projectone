@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+void name_to_binary(char*name){
+	while(*name){
+		int i;
+		for( i=7;i>=0;i--){
+			printf("%d ",(*name>>i)&1);
+		}
+		printf(" ");
+		name++;
+	}
+}
+int main(){
+char name[100];
+printf("Enter your name:");
+if(scanf("%99s",name)!=1){
+printf("Error reading the input");
+return 1;
+}
+printf("Binary form:\n");
+name_to_binary(name);
+printf("\n");
+return 0;
+}
