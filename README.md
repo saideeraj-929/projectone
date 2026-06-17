@@ -614,3 +614,68 @@ A simple Python desktop application built using **Tkinter** that calculates a us
 ```bash
 git clone https://github.com/your-username/age-calculator.git
 
+# 🏦 Bank Management System
+
+A simple Bank Management System built using Python and Tkinter.
+
+## ✨ Features
+
+* ✅ Create Account
+* 💰 Deposit Money
+* 💸 Withdraw Money
+* 🏦 Check Balance
+* 💾 Save Account Data to File
+* 🔄 Auto Load Account Data
+* ⚠️ Input Validation and Warning Messages
+* 🎨 User-Friendly GUI
+
+## 🛠️ Technologies Used
+
+* Python
+* Tkinter
+* File Handling
+* Object-Oriented Programming (OOP)
+
+## 📸 Screenshot
+
+![Bank Management System Screenshot](BANK_SCREENSHOT.png)
+
+## 🚀 How to Run
+
+1. Download the project files.
+2. Open the project folder.
+3. Run:
+
+```bash
+python Bank_Management_System.py
+```
+
+## 📂 Project Structure
+
+```text
+Bank_Management_System.py
+account.txt
+README.md
+```
+
+## 📖 Concepts Learned
+
+* Classes and Objects
+* Functions
+* File Handling
+* GUI Development with Tkinter
+* Data Persistence
+
+## 🎯 Future Improvements
+
+* Multiple Accounts
+* Account Number Generation
+* Transaction History
+* Account Deletion
+* Search Account Feature
+
+## 👨‍💻 Author
+
+Sai Deeraj
+
+
