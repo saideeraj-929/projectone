@@ -636,8 +636,8 @@ A simple Bank Management System built using Python and Tkinter.
 * File Handling
 * Object-Oriented Programming (OOP)
 
-## 📸 Screenshot
-![Bank system screenshot](https://github.com/saideeraj-929/projectone/blob/main/Bank%20system%20screenshot.png?raw=true)
+## 📸 Screenshot)
+![Bank system screenshot](https://github.com/saideeraj-929/projectone/blob/9cd578743a0c9bac52d39aea3759cb92758916f5/Bank%20system%20screenshot.png)
 ## 🚀 How to Run
 
 1. Download the project files.
