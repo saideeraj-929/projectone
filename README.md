@@ -704,7 +704,7 @@ A simple Library Management System built using Python and Tkinter.
 
 ## Project Screenshot
 
-![Library Management System]
+![Library Management System](https://github.com/saideeraj-929/projectone/blob/e9a78be71e696e86540b74e5a45a939a82ce6b54/Library%20Management%20screenshot.png)
 
 ## Future Improvements
 
