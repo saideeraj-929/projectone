@@ -675,3 +675,45 @@ README.md
 Sai Deeraj
 
 
+# 📚 Library Management System
+
+A simple Library Management System built using Python and Tkinter.
+
+## Features
+
+* ✅ Add Books
+* 📕 Issue Books
+* 📗 Return Books
+* 💾 Save Books to File
+* 🔄 Load Books Automatically on Startup
+* 🖥️ User-Friendly GUI
+
+## Technologies Used
+
+* Python
+* Tkinter
+* File Handling
+
+## How It Works
+
+1. Enter a book name and click **Add Book**.
+2. Select a book and click **Issue Book**.
+3. Select an issued book and click **Return Book**.
+4. Books are saved automatically in `books.txt`.
+5. Saved books are loaded when the application starts.
+
+## Project Screenshot
+
+![Library Management System]
+
+## Future Improvements
+
+* Delete Book Option
+* Search Book Feature
+* Database Integration
+* Login System
+
+## Author
+
+Sai Deeraj
+
