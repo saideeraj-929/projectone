@@ -338,14 +338,9 @@ The app allows users to:
 3. Open a terminal in the project folder.
 4. Run:
 
-python greeting_app.py
 
-## Project Structure
 
-tkinter-greeting-app/
-├── greeting_app.py
-├── README.md
-└── screenshot.png
+
 
 ## Screenshot
 
