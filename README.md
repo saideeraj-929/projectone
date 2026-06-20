@@ -567,10 +567,9 @@ python BMI_Calculator.py
 
 ---
 
-⭐ If you like this project, give it a star on GitHub!
->>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
->>>>>>>
->>>>>>> # 🧮 Age Calculator (Tkinter GUI App)
+
+
+ # 🧮 Age Calculator (Tkinter GUI App)
 
 A simple Python desktop application built using **Tkinter** that calculates a user's age based on their birth year and shows their age category (Child, Teen, Adult, Senior).
 
