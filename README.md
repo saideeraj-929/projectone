@@ -281,13 +281,7 @@ Add your calculator screenshot here.
 python Calculator.py
 ```
 
-## Project Structure 📂
 
-```text id="u3k7p1"
-Calculator.py
-README.md
-screenshot.png
-```
 
 ## Future Improvements 🚀
 
