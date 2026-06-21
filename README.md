@@ -706,3 +706,41 @@ A simple Library Management System built using Python and Tkinter.
 
 Sai Deeraj
 
+
+# 🌦️ Weather App
+
+A simple Weather App built using Python Tkinter and Requests.
+
+## ✨ Features
+
+* 🔍 Search weather by city name
+* 🌡️ Get real-time weather data
+* 🖥️ User-friendly interface
+* ✅ Input validation
+* 🧹 Clear button to reset data
+
+## 🛠️ Technologies Used
+
+* 🐍 Python
+* 🎨 Tkinter
+* 🌐 Requests Library
+* ☁️ wttr.in Weather API
+
+## 🚀 How to Run
+
+### 1️⃣ Install Requests
+
+pip install requests
+
+### 2️⃣ Run the Program
+
+python Weather_App.py
+
+## 📸 Screenshot
+
+![Weather App](Weather%20App.png)
+
+## 👨‍💻 Author
+
+**Sai Deeraj**
+
