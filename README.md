@@ -738,7 +738,7 @@ python Weather_App.py
 
 ## 📸 Screenshot
 
-![Weather App](Weather%20App.png)
+![Weather App](https://github.com/saideeraj-929/projectone/blob/e615a40802b490dfd4b69c07f96b485bcb7859a5/Weather%20app%20screenshot.png)
 
 ## 👨‍💻 Author
 
