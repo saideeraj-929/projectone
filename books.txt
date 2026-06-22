@@ -1,2 +1,0 @@
-Issued-python
-Available-java
