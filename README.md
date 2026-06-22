@@ -105,7 +105,7 @@ python quiz.py
 
 ### Screenshot
 
-![Quiz Game Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Screenshot%202026-06-03%20184607.png?raw=true)
+
 
 ---
 
