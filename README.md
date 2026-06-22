@@ -134,7 +134,6 @@ python calculator.py
 
 ### Screenshot
 
-![Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Calculator%20screenshot.png?raw=true)
 
 ---
 
