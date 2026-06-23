@@ -743,3 +743,78 @@ python Weather_App.py
 
 **Sai Deeraj**
 
+# 🏫 Attendance Management System
+
+A simple Attendance Management System built using Python and Tkinter. This application allows users to mark students as Present or Absent, save attendance records to a file, and automatically load previous records when the application starts.
+
+## ✨ Features
+
+* ✅ Mark Student Present
+* ❌ Mark Student Absent
+* 💾 Save Attendance Records
+* 📂 Load Saved Attendance Automatically
+* 🖥️ Simple and User-Friendly GUI
+* 📝 Stores attendance data in a text file
+
+## 🛠️ Technologies Used
+
+* 🐍 Python
+* 🎨 Tkinter
+* 📁 File Handling
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+### 2️⃣ Run the Program
+
+```bash
+python Attendance_Management_System.py
+```
+
+## 📸 Screenshot
+
+Add your application screenshot here:
+
+```text
+Attendance_System.png
+```
+
+Example:
+
+```markdown
+![Attendance Management System](Attendance_System.png)
+```
+
+## 📂 Project Structure
+
+```text
+Attendance Management System
+│
+├── Attendance_Management_System.py
+├── attendance.txt
+├── Attendance_System.png
+└── README.md
+```
+
+## 📖 How It Works
+
+1. Enter a student name.
+2. Click **Mark Present** or **Mark Absent**.
+3. Attendance is displayed in the list.
+4. Click **Save Attendance** to store records.
+5. Records are automatically loaded when the application starts again.
+
+## 👨‍💻 Author
+
+**Sai Deeraj**
+
+🎓 Computer Engineering Diploma Student
+🐍 Python Developer
+🚀 Learning Software Development and Building Projects
+
+
