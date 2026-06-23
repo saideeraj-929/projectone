@@ -99,7 +99,7 @@ A simple quiz game made using Python.
 
 ### Run
 
-```bash id="c9w8d7"
+```bash
 python quiz.py
 ```
 
@@ -128,7 +128,7 @@ A menu-driven calculator written in Python.
 
 ### Run
 
-```bash id="e6r5t4"
+```bash
 python calculator.py
 ```
 
@@ -156,7 +156,7 @@ A beginner-friendly Python login and registration system using file handling.
 
 ### Run
 
-```bash id="y3u2i1"
+```bash
 python login.py
 ```
 
@@ -211,7 +211,7 @@ A simple Password Manager application built using Python and Tkinter.
 
 ### Run
 
-```bash id="o0p9q8"
+```bash
 python main.py
 ```
 
@@ -225,7 +225,7 @@ python main.py
 
 Clone the repository:
 
-```bash id="l7k6j5"
+```bash
 git clone https://github.com/saideeraj-929/projectone.git
 cd projectone
 ```
@@ -249,7 +249,10 @@ If you find this repository helpful, consider giving it a star ⭐.
 # 👨‍💻 Author
 
 Created by Sai Deeraj
-# Scientific Calculator 🔥
+
+---
+
+# 🔥 Scientific Calculator
 
 A modern Scientific Calculator built using Python and Tkinter.
 
@@ -270,17 +273,11 @@ A modern Scientific Calculator built using Python and Tkinter.
 * Tkinter
 * Math Module
 
-## Screenshot 📸
-
-Add your calculator screenshot here.
-
 ## How to Run ▶️
 
-```bash id="m8v2q5"
+```bash
 python Calculator.py
 ```
-
-
 
 ## Future Improvements 🚀
 
@@ -290,16 +287,17 @@ python Calculator.py
 * Memory buttons
 * Better keyboard support
 
-<<<<<<< HEAD
-![calculator Screenshot]https://github.com/saideeraj-929/projectone/blob/e97d98621470fc832a8c4e04ef79afe14ac025f7/upgrade%20calculator%20screenshot.png
-=======
+### Screenshot
+
 ![calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/e97d98621470fc832a8c4e04ef79afe14ac025f7/upgrade%20calculator%20screenshot.png)
->>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
+
 ## Author 👨‍💻
 
 Sai Deeraj
 
-# Tkinter Greeting App
+---
+
+# 🎯 Tkinter Greeting App
 
 ## Description
 
@@ -332,17 +330,14 @@ The app allows users to:
 3. Open a terminal in the project folder.
 4. Run:
 
-
-
-
+```bash
+python greeting_app.py
+```
 
 ## Screenshot
 
-<<<<<<< HEAD
-![Greetings screenshot](screenshot)https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png
-=======
-![Greetings screenshot screenshot](https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png)
->>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
+![Greetings screenshot](https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png)
+
 ## What I Learned
 
 * Tkinter GUI development
@@ -354,7 +349,9 @@ The app allows users to:
 
 ## Author
 
-Sai deeraj
+Sai Deeraj
+
+---
 
 # 🎓 Student Record Manager
 
@@ -395,11 +392,8 @@ python Student_Record_Manager.py
 ```
 
 ## 📸 Screenshot
-<<<<<<< HEAD
-[student manegement screenshot]https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png
-=======
-[student manegement screenshot](https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png)
->>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
+
+![student manegement screenshot](https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png)
 
 ## 📚 What I Learned
 
@@ -423,8 +417,9 @@ python Student_Record_Manager.py
 
 Learning Python, Tkinter, Git, and GitHub 🚀
 
+---
 
-# Expense Tracker
+# 💰 Expense Tracker
 
 A simple Expense Tracker application built using Python and Tkinter. This app helps users record daily expenses, calculate the total amount spent, and save expense data automatically.
 
@@ -457,11 +452,7 @@ python Expenses_Tracker.py
 
 ## Project Screenshot
 
-<<<<<<< HEAD
-![Expense Tracker screenshots]https://github.com/saideeraj-929/projectone/blob/de5ce5b96bca9102a3181470abd8f503ca108e0b/Expenses_tracker%20screenshot.png
-=======
 ![Expense Tracker screenshots](https://github.com/saideeraj-929/projectone/blob/de5ce5b96bca9102a3181470abd8f503ca108e0b/Expenses_tracker%20screenshot.png)
->>>>>>> eb82974a2526ebd2e97ccf4255b326acd51d7f1a
 
 ## Author
 
@@ -475,8 +466,8 @@ python Expenses_Tracker.py
 * Expense charts and graphs
 * Dark mode support
 
-<<<<<<< HEAD
-=======
+---
+
 # 🏋️ BMI Calculator
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -532,8 +523,6 @@ BMI = Weight (kg) / Height² (m²)
 
 ## 📸 Screenshot
 
-Add your screenshot here.
-
 ![BMI Screenshot](https://github.com/saideeraj-929/projectone/blob/3e2930876f1fdf1d2fbd7fc82b37754622440193/BMI%20screenshot.png)
 
 ---
@@ -566,9 +555,7 @@ python BMI_Calculator.py
 
 ---
 
-
-
- # 🧮 Age Calculator (Tkinter GUI App)
+# 🧮 Age Calculator (Tkinter GUI App)
 
 A simple Python desktop application built using **Tkinter** that calculates a user's age based on their birth year and shows their age category (Child, Teen, Adult, Senior).
 
@@ -593,7 +580,11 @@ A simple Python desktop application built using **Tkinter** that calculates a us
 - Python 3
 - Tkinter (GUI library)
 - datetime module
-![Age calculator screenshot ](https://github.com/saideeraj-929/projectone/blob/d7ad49c9a1f7f18468cde54b542021424b472c60/Age%20calculator%20screenshot.png)
+
+## 📸 Screenshot
+
+![Age calculator screenshot](https://github.com/saideeraj-929/projectone/blob/d7ad49c9a1f7f18468cde54b542021424b472c60/Age%20calculator%20screenshot.png)
+
 ---
 
 ## 🚀 How to Run
@@ -601,6 +592,9 @@ A simple Python desktop application built using **Tkinter** that calculates a us
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/age-calculator.git
+```
+
+---
 
 # 🏦 Bank Management System
 
@@ -662,6 +656,7 @@ README.md
 
 Sai Deeraj
 
+---
 
 # 📚 Library Management System
 
@@ -705,6 +700,7 @@ A simple Library Management System built using Python and Tkinter.
 
 Sai Deeraj
 
+---
 
 # 🌦️ Weather App
 
@@ -729,11 +725,15 @@ A simple Weather App built using Python Tkinter and Requests.
 
 ### 1️⃣ Install Requests
 
+```bash
 pip install requests
+```
 
 ### 2️⃣ Run the Program
 
+```bash
 python Weather_App.py
+```
 
 ## 📸 Screenshot
 
@@ -743,9 +743,11 @@ python Weather_App.py
 
 **Sai Deeraj**
 
+---
+
 # 🏫 Attendance Management System
 
-A simple Attendance Management System built using Python and Tkinter. This application allows users to mark students as Present or Absent, save attendance records to a file, and automatically load previous records when the application starts.
+A simple Attendance Management System built using Python and Tkinter. This application allows users to mark students as Present or Absent, save attendance records to a file, and automatically load pre-saved records.
 
 ## ✨ Features
 
@@ -778,17 +780,7 @@ python Attendance_Management_System.py
 
 ## 📸 Screenshot
 
-Add your application screenshot here:
-
-```text
-Attendance_System.png
-```
-
-Example:
-
-```markdown
-![Attendance Management System](Attendance_System.png)
-```
+![Attendance System screenshot](https://github.com/saideeraj-929/projectone/blob/008963d32cb8859072ce73fae0712c32c8e19b4e/Attendance%20system%20screenshot.png)
 
 ## 📂 Project Structure
 
@@ -816,5 +808,3 @@ Attendance Management System
 🎓 Computer Engineering Diploma Student
 🐍 Python Developer
 🚀 Learning Software Development and Building Projects
-
-
