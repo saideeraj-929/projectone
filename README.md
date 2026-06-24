@@ -372,7 +372,7 @@ A simple Student Record Manager application built using Python and Tkinter. This
 * Tkinter
 * File Handling
 
-## 📂 Project Structure
+## 📂 Project Structure.
 
 ```text
 Student_Record_Manager.py
