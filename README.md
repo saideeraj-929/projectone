@@ -82,7 +82,7 @@ A Python project that manages student records using file handling.
 
 ---
 
-## 5. 🎯 Python Quiz Game
+## 5. 🎯 Python Quiz Game.
 
 A simple quiz game made using Python.
 
