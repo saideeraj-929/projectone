@@ -1,6 +1,6 @@
 # 🚀 Mini Projects Collection
 
-A collection of beginner-friendly Python and C projects created to practice programming, problem-solving, GUI development, and GitHub workflows.
+A collection of beginner-friendly Python and C projects created to practice programming, problem-solving, GUI development, and GitHub workflows
 
 ---
 
