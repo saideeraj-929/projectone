@@ -1,6 +1,6 @@
 # 🚀 Mini Projects Collection
 
-A collection of beginner-friendly Python and C projects created to practice programming, problem-solving, GUI development, and GitHub workflows
+A collection of beginner-friendly Python and C projects created to practice programming, problem-solving, GUI development, and GitHub workflows.
 
 ---
 
@@ -18,7 +18,7 @@ DJ
 Output:
 01000100 01001010
 
-### Technologies Used
+### Technologies Used.
 
 * C
 * GCC Compiler
