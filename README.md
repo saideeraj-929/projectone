@@ -782,16 +782,7 @@ python Attendance_Management_System.py
 
 ![Attendance System screenshot](https://github.com/saideeraj-929/projectone/blob/008963d32cb8859072ce73fae0712c32c8e19b4e/Attendance%20system%20screenshot.png)
 
-## 📂 Project Structure
 
-```text
-Attendance Management System
-│
-├── Attendance_Management_System.py
-├── attendance.txt
-├── Attendance_System.png
-└── README.md
-```
 
 ## 📖 How It Works
 
