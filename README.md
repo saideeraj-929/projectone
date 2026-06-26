@@ -535,7 +535,7 @@ BMI = Weight (kg) / Height² (m²)
 4. Run:
 
 ```bash
-python BMI_Calculator.py
+
 ```
 
 ---
