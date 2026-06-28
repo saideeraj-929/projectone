@@ -1,801 +1,250 @@
-# 🚀 Mini Projects Collection
+# ProjectOne — Mini Python & C Projects Collection
 
-A collection of beginner-friendly Python and C projects created to practice programming, problem-solving, GUI development, and GitHub workflows.
-
----
-
-# 📂 Projects Included
-
-## 1. Binary Name Converter in C
-
-Converts a user's name into its binary ASCII representation.
-
-### Example
-
-Input:
-DJ
-
-Output:
-01000100 01001010
-
-### Technologies Used.
-
-* C
-* GCC Compiler
+A curated collection of beginner-friendly projects (mostly Python) for practicing programming, GUI development with Tkinter, file handling, and basic algorithms. Each project is small, self-contained, and easy to run.
 
 ---
 
-## 2. Password Strength Checker 🔐
+## Table of contents
 
-A Python tool that checks password strength and provides suggestions for improvement.
-
-### Features
-
-* Rates passwords as Weak, Medium, or Strong
-* Checks:
-
-  * Minimum length
-  * Uppercase letters
-  * Lowercase letters
-  * Numbers
-  * Special characters
-
-### Technologies Used
-
-* Python
+- [Projects](#projects)
+- [Getting started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
 ---
 
-## 3. 🤖 Emoji Chatbot
+## Projects
 
-A simple Python chatbot that responds with fun emojis.
+Below is a short summary of the projects included in this repository. For each project, check the project file in the repository to see detailed code and screenshots.
 
-### Features
+### 1. Binary Name Converter (C)
+- Description: Converts a user's name into its binary ASCII representation.
+- Tech: C
+- Run (example): compile with `gcc` and run the executable.
 
-* Responds to greetings and emotions
-* Terminal-based chatbot
-* Easy to customize
-* Weather option
+### 2. Password Strength Checker (Python)
+- Description: CLI tool that rates passwords as Weak / Medium / Strong and gives suggestions.
+- Tech: Python
+- Run:
 
-### Technologies Used
+```bash
+python password_checker.py
+```
 
-* Python
+### 3. Emoji Chatbot (Python)
+- Description: A terminal chatbot that replies with emoji-based responses to greetings and emotions.
+- Tech: Python
+- Run:
 
----
+```bash
+python emoji_chatbot.py
+```
 
-## 4. 🎓 Student Management System
+### 4. Student Management System (Python)
+- Description: Manage student records (add, view, search, delete) using file storage.
+- Tech: Python, file handling
+- Run:
 
-A Python project that manages student records using file handling.
+```bash
+python student_management_system.py
+```
 
-### Features
-
-* Add Student Record
-* View Student Records
-* Search Student
-* Delete Student
-* File Storage System
-
-### Technologies Used
-
-* Python
-* File Handling
-
----
-
-## 5. 🎯 Python Quiz Game.
-
-A simple quiz game made using Python.
-
-### Features
-
-* Multiple questions
-* Score tracking
-* User input checking
-* Beginner-friendly project
-
-### Technologies Used
-
-* Python
-
-### Run
+### 5. Quiz Game (Python)
+- Description: Simple multiple-choice quiz with score tracking.
+- Tech: Python
+- Run:
 
 ```bash
 python quiz.py
 ```
 
-### Screenshot
-
-
-
----
-
-## 6. 🧮 Python Calculator Program
-
-A menu-driven calculator written in Python.
-
-### Features
-
-* Addition
-* Subtraction
-* Multiplication
-* Division
-* Division-by-zero handling
-* Loop-based menu system
-
-### Technologies Used
-
-* Python
-
-### Run
+### 6. CLI Calculator (Python)
+- Description: Menu-driven calculator for basic arithmetic with division-by-zero handling.
+- Tech: Python
+- Run:
 
 ```bash
 python calculator.py
 ```
 
-### Screenshot
-
-
----
-
-## 7. 🔐 Simple Login System
-
-A beginner-friendly Python login and registration system using file handling.
-
-### Features
-
-* User Registration
-* User Login
-* Password Verification
-* Error Handling
-* File Storage
-
-### Technologies Used
-
-* Python
-* File Handling
-
-### Run
+### 7. Simple Login System (Python)
+- Description: File-based user registration and login with basic password verification.
+- Tech: Python, file handling
+- Run:
 
 ```bash
 python login.py
 ```
 
-### Screenshot
+### 8. Tkinter Calculator App (Python)
+- Description: GUI calculator built with Tkinter.
+- Tech: Python, Tkinter
+- Run:
 
-![Login System Screenshot](https://github.com/saideeraj-929/projectone/blob/main/login%20system%20screenshot.png?raw=true)
+```bash
+python Calculator.py
+```
 
----
-
-## 8. 🧮 Tkinter Calculator App
-
-A GUI calculator built using Python and Tkinter.
-
-### Features
-
-* Addition
-* Subtraction
-* Multiplication
-* Division
-* Error Handling
-* Interactive GUI
-
-### Technologies Used
-
-* Python
-* Tkinter
-
-### Screenshot
-
-![Tkinter Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Screenshot%202026-06-07%20125921.png?raw=true)
-
----
-
-## 9. 🔐 Password Manager
-
-A simple Password Manager application built using Python and Tkinter.
-
-### Features
-
-* Generate strong passwords
-* Save website credentials
-* Dark mode GUI
-* Error handling
-* File storage system
-
-### Technologies Used
-
-* Python
-* Tkinter
-* Random Module
-* String Module
-
-### Run
+### 9. Password Manager (Python + Tkinter)
+- Description: GUI app to generate and save strong passwords and store simple credentials.
+- Tech: Python, Tkinter
+- Run:
 
 ```bash
 python main.py
 ```
 
-### Screenshot
+### 10. Scientific Calculator (Python + Tkinter)
+- Description: Modern scientific calculator UI with history, basic scientific ops, and keyboard support.
+- Tech: Python, Tkinter
+- Run:
 
-![Password Manager Screenshot](https://github.com/saideeraj-929/projectone/blob/main/password%20maneger%20screenshot.png?raw=true)
+```bash
+python Calculator.py
+```
+
+### 11. Greeting App (Python + Tkinter)
+- Description: Small GUI app that greets the user by name; demonstrates Tkinter basics.
+- Tech: Python, Tkinter
+- Run:
+
+```bash
+python greeting_app.py
+```
+
+### 12. Student Record Manager (Python + Tkinter)
+- Description: Add / view / delete student records with persistence in a text file.
+- Tech: Python, Tkinter, file handling
+- Run:
+
+```bash
+python Student_Record_Manager.py
+```
+
+### 13. Expense Tracker (Python + Tkinter)
+- Description: Track expenses, delete entries, and save/load expense data.
+- Tech: Python, Tkinter
+- Run:
+
+```bash
+python Expenses_Tracker.py
+```
+
+### 14. BMI Calculator (Python + Tkinter)
+- Description: Calculate BMI from weight and height and show the health category.
+- Tech: Python, Tkinter
+- Run:
+
+```bash
+python BMI.py
+```
+
+### 15. Age Calculator (Python + Tkinter)
+- Description: Calculate age from birth year and display age category.
+- Tech: Python, Tkinter
+- Run:
+
+```bash
+python age_calculator.py
+```
+
+### 16. Bank Management System (Python + Tkinter)
+- Description: Simple banking UI to create accounts, deposit/withdraw, and persist data.
+- Tech: Python, Tkinter
+- Run:
+
+```bash
+python Bank_Management_System.py
+```
+
+### 17. Library Management System (Python + Tkinter)
+- Description: Add, issue, return, and save books to a file.
+- Tech: Python, Tkinter
+- Run:
+
+```bash
+python Library_Management_System.py
+```
+
+### 18. Weather App (Python + Tkinter)
+- Description: Simple weather lookup using a public API (wttr.in) and the requests library.
+- Tech: Python, Tkinter, requests
+- Requirements:
+
+```bash
+pip install requests
+```
+
+Run:
+
+```bash
+python Weather_App.py
+```
+
+### 19. Attendance Management System (Python + Tkinter)
+- Description: Mark present/absent, save attendance to a file, and auto-load saved records.
+- Tech: Python, Tkinter
+- Run:
+
+```bash
+python Attendance_Management_System.py
+```
 
 ---
 
-# 🛠️ Getting Started
+## Getting started
 
-Clone the repository:
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/saideeraj-929/projectone.git
 cd projectone
 ```
 
----
-
-# 📜 License
-
-This project is licensed under the Apache License 2.0.
-
----
-
-# ⭐ Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-If you find this repository helpful, consider giving it a star ⭐.
-
----
-
-# 👨‍💻 Author
-
-Created by Sai Deeraj
-
----
-
-# 🔥 Scientific Calculator
-
-A modern Scientific Calculator built using Python and Tkinter.
-
-## Features ✨
-
-* Basic operations (+, -, ×, ÷)
-* Square root calculation
-* Square calculation
-* Backspace button
-* Calculation history
-* Keyboard Enter support
-* Modern neon dark UI
-* Error handling popup
-
-## Technologies Used 🛠️
-
-* Python
-* Tkinter
-* Math Module
-
-## How to Run ▶️
+2. (Optional) Create a virtual environment and install dependencies for projects that use requests:
 
 ```bash
-python Calculator.py
+python -m venv .venv
+source .venv/bin/activate  # macOS / Linux
+.\.venv\Scripts\activate   # Windows
+pip install -r requirements.txt  # if provided
 ```
 
-## Future Improvements 🚀
+3. Run any project by executing its Python file as shown above.
 
-* Percentage button
-* Themes
-* Scientific functions
-* Memory buttons
-* Better keyboard support
-
-### Screenshot
-
-![calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/e97d98621470fc832a8c4e04ef79afe14ac025f7/upgrade%20calculator%20screenshot.png)
-
-## Author 👨‍💻
-
-Sai Deeraj
+Notes:
+- Many projects are GUI-based using Tkinter which is included with standard Python installations. If a program uses external libraries (e.g., requests), install them with pip.
+- Filenames above are examples — please verify the exact filename in the repository before running.
 
 ---
 
-# 🎯 Tkinter Greeting App
+## Contributing
 
-## Description
+Contributions are welcome. To contribute:
 
-A simple Python Tkinter application that greets the user by name.
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature/my-change`.
+3. Make your changes and commit them with clear messages.
+4. Push to your fork and open a pull request.
 
-The app allows users to:
+Please keep changes small and focused. Add or update README sections when you add new projects or change file names.
 
-* Enter their name
-* Display a greeting message
-* Clear the input and output
-* Exit the application
+---
 
-## Features
+## License
 
-* User-friendly GUI
-* Greeting message display
-* Input validation for empty names
-* Clear button
-* Exit button
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 
-## Technologies Used
-
-* Python
-* Tkinter
-
-## How to Run
-
-1. Install Python on your computer.
-2. Save the file as `greeting_app.py`.
-3. Open a terminal in the project folder.
-4. Run:
-
-```bash
-python greeting_app.py
-```
-
-## Screenshot
-
-![Greetings screenshot](https://github.com/saideeraj-929/projectone/blob/6f2ddee1d48766cff90749610b6cc7576d091320/Greetings%20screenshot.png)
-
-## What I Learned
-
-* Tkinter GUI development
-* Functions and event handling
-* Entry, Label, and Button widgets
-* Input validation using if-else
-* Clearing Entry widgets with `delete()`
-* Closing applications using `destroy()`
+---
 
 ## Author
 
-Sai Deeraj
+Sai Deeraj — learner and Python/Tkinter enthusiast.
 
 ---
 
-# 🎓 Student Record Manager
-
-A simple Student Record Manager application built using Python and Tkinter. This project allows users to add, view, delete, and save student records through an easy-to-use graphical interface.
-
-## 🚀 Features
-
-* Add student records
-* Delete selected student records
-* Save records to a file
-* Automatically load saved records on startup
-* User-friendly Tkinter GUI
-* Input validation with warning messages
-
-## 🛠 Technologies Used
-
-* Python
-* Tkinter
-* File Handling
-
-## 📂 Project Structure.
-
-```text
-Student_Record_Manager.py
-students.txt
-README.md
-```
-
-## ▶️ How to Run
-
-1. Install Python.
-2. Download or clone this repository.
-3. Open the project folder.
-4. Run the program:
-
-```bash
-python Student_Record_Manager.py
-```
-
-## 📸 Screenshot
-
-![student manegement screenshot](https://github.com/saideeraj-929/projectone/blob/684afd41829f039ad7f567e4fbc4790986bd124e/Student%20manegement%20record%20screenshot.png)
-
-## 📚 What I Learned
-
-* Tkinter GUI development
-* Labels, Entry widgets, Buttons, and Listbox
-* Functions and event handling
-* File handling (save and load data)
-* Basic project organization
-
-## 🔮 Future Improvements
-
-* Edit student records
-* Search student records
-* Student ID system
-* Export records to CSV
-* Dark mode interface
-
-## 👨‍💻 Author
-
-**Sai Deeraj**
-
-Learning Python, Tkinter, Git, and GitHub 🚀
-
----
-
-# 💰 Expense Tracker
-
-A simple Expense Tracker application built using Python and Tkinter. This app helps users record daily expenses, calculate the total amount spent, and save expense data automatically.
-
-## Features
-
-* Add new expenses
-* Delete selected expenses
-* Clear all expenses
-* Automatic total amount calculation
-* Save expenses to a file
-* Load saved expenses when the app starts
-* Input validation using message boxes
-* Simple and user-friendly interface
-
-## Technologies Used
-
-* Python
-* Tkinter
-
-## How to Run
-
-1. Install Python on your computer.
-2. Download the project files.
-3. Open a terminal in the project folder.
-4. Run:
-
-```bash
-python Expenses_Tracker.py
-```
-
-## Project Screenshot
-
-![Expense Tracker screenshots](https://github.com/saideeraj-929/projectone/blob/de5ce5b96bca9102a3181470abd8f503ca108e0b/Expenses_tracker%20screenshot.png)
-
-## Author
-
-**Sai Deeraj**
-
-## Future Improvements
-
-* Expense categories
-* Search expenses
-* Monthly expense reports
-* Expense charts and graphs
-* Dark mode support
-
----
-
-# 🏋️ BMI Calculator
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Author](https://img.shields.io/badge/Author-Sai%20Deeraj-orange)
-
----
-
-## 📖 About The Project
-
-This is a simple BMI (Body Mass Index) Calculator built using Python and Tkinter. Users can enter their weight and height to calculate their BMI and view their health category.
-
----
-
-## ✨ Features
-
-✅ Calculate BMI instantly
-
-✅ Display BMI value
-
-✅ Show BMI category
-
-✅ Simple Tkinter GUI
-
-✅ Easy to use
-
----
-
-## 🛠️ Technologies Used
-
-* Python
-* Tkinter
-
----
-
-## 📊 BMI Categories
-
-| BMI Range    | Category      |
-| ------------ | ------------- |
-| Below 18.5   | Underweight   |
-| 18.5 - 24.9  | Normal Weight |
-| 25 - 29.9    | Overweight    |
-| 30 and Above | Obese         |
-
----
-
-## 🧮 BMI Formula
-
-BMI = Weight (kg) / Height² (m²)
-
----
-
-## 📸 Screenshot
-
-![BMI Screenshot](https://github.com/saideeraj-929/projectone/blob/3e2930876f1fdf1d2fbd7fc82b37754622440193/BMI%20screenshot.png)
-
----
-
-## 🚀 How To Run
-
-1. Install Python.
-2. Download the project files.
-3. Open a terminal in the project folder.
-4. Run:
-
-```bash
-
-```
-
----
-
-## 👨‍💻 Author
-
-**Sai Deeraj**
-
----
-
-## 🔮 Future Improvements
-
-* Better UI Design
-* Save BMI History
-* Dark Mode
-* Data Storage Support
-
----
-
-# 🧮 Age Calculator (Tkinter GUI App)
-
-A simple Python desktop application built using **Tkinter** that calculates a user's age based on their birth year and shows their age category (Child, Teen, Adult, Senior).
-
----
-
-## 📌 Features
-
-- Simple and clean GUI using Tkinter
-- Calculates age from birth year
-- Shows age category:
-  - Child (below 13)
-  - Teen (13–19)
-  - Adult (20–59)
-  - Senior (60+)
-- Input validation (only valid years accepted)
-- Error messages using popup alerts
-
----
-
-## 🖥️ Tech Stack
-
-- Python 3
-- Tkinter (GUI library)
-- datetime module
-
-## 📸 Screenshot
-
-![Age calculator screenshot](https://github.com/saideeraj-929/projectone/blob/d7ad49c9a1f7f18468cde54b542021424b472c60/Age%20calculator%20screenshot.png)
-
----
-
-## 🚀 How to Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/age-calculator.git
-```
-
----
-
-# 🏦 Bank Management System
-
-A simple Bank Management System built using Python and Tkinter.
-
-## ✨ Features
-
-* ✅ Create Account
-* 💰 Deposit Money
-* 💸 Withdraw Money
-* 🏦 Check Balance
-* 💾 Save Account Data to File
-* 🔄 Auto Load Account Data
-* ⚠️ Input Validation and Warning Messages
-* 🎨 User-Friendly GUI
-
-## 🛠️ Technologies Used
-
-* Python
-* Tkinter
-* File Handling
-* Object-Oriented Programming (OOP)
-
-## 🚀 How to Run
-
-1. Download the project files.
-2. Open the project folder.
-3. Run:
-
-```bash
-python Bank_Management_System.py
-```
-
-## 📂 Project Structure
-
-```text
-Bank_Management_System.py
-account.txt
-README.md
-```
-
-## 📖 Concepts Learned
-
-* Classes and Objects
-* Functions
-* File Handling
-* GUI Development with Tkinter
-* Data Persistence
-
-## 🎯 Future Improvements
-
-* Multiple Accounts
-* Account Number Generation
-* Transaction History
-* Account Deletion
-* Search Account Feature
-
-## 👨‍💻 Author
-
-Sai Deeraj
-
----
-
-# 📚 Library Management System
-
-A simple Library Management System built using Python and Tkinter.
-
-## Features
-
-* ✅ Add Books
-* 📕 Issue Books
-* 📗 Return Books
-* 💾 Save Books to File
-* 🔄 Load Books Automatically on Startup
-* 🖥️ User-Friendly GUI
-
-## Technologies Used
-
-* Python
-* Tkinter
-* File Handling
-
-## How It Works
-
-1. Enter a book name and click **Add Book**.
-2. Select a book and click **Issue Book**.
-3. Select an issued book and click **Return Book**.
-4. Books are saved automatically in `books.txt`.
-5. Saved books are loaded when the application starts.
-
-## Project Screenshot
-
-![Library Management System](https://github.com/saideeraj-929/projectone/blob/e9a78be71e696e86540b74e5a45a939a82ce6b54/Library%20Management%20screenshot.png)
-
-## Future Improvements
-
-* Delete Book Option
-* Search Book Feature
-* Database Integration
-* Login System
-
-## Author
-
-Sai Deeraj
-
----
-
-# 🌦️ Weather App
-
-A simple Weather App built using Python Tkinter and Requests.
-
-## ✨ Features
-
-* 🔍 Search weather by city name
-* 🌡️ Get real-time weather data
-* 🖥️ User-friendly interface
-* ✅ Input validation
-* 🧹 Clear button to reset data
-
-## 🛠️ Technologies Used
-
-* 🐍 Python
-* 🎨 Tkinter
-* 🌐 Requests Library
-* ☁️ wttr.in Weather API
-
-## 🚀 How to Run
-
-### 1️⃣ Install Requests
-
-```bash
-pip install requests
-```
-
-### 2️⃣ Run the Program
-
-```bash
-python Weather_App.py
-```
-
-## 📸 Screenshot
-
-![Weather App screenshot](https://github.com/saideeraj-929/projectone/blob/e615a40802b490dfd4b69c07f96b485bcb7859a5/Weather%20app%20screenshot.png)
-
-## 👨‍💻 Author
-
-**Sai Deeraj**
-
----
-
-# 🏫 Attendance Management System
-
-A simple Attendance Management System built using Python and Tkinter. This application allows users to mark students as Present or Absent, save attendance records to a file, and automatically load pre-saved records.
-
-## ✨ Features
-
-* ✅ Mark Student Present
-* ❌ Mark Student Absent
-* 💾 Save Attendance Records
-* 📂 Load Saved Attendance Automatically
-* 🖥️ Simple and User-Friendly GUI
-* 📝 Stores attendance data in a text file
-
-## 🛠️ Technologies Used
-
-* 🐍 Python
-* 🎨 Tkinter
-* 📁 File Handling
-
-## 🚀 How to Run
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone <repository-url>
-```
-
-### 2️⃣ Run the Program
-
-```bash
-python Attendance_Management_System.py
-```
-
-## 📸 Screenshot
-
-![Attendance System screenshot](https://github.com/saideeraj-929/projectone/blob/008963d32cb8859072ce73fae0712c32c8e19b4e/Attendance%20system%20screenshot.png)
-
-
-
-## 📖 How It Works
-
-1. Enter a student name.
-2. Click **Mark Present** or **Mark Absent**.
-3. Attendance is displayed in the list.
-4. Click **Save Attendance** to store records.
-5. Records are automatically loaded when the application starts again.
-
-## 👨‍💻 Author
-
-**Sai Deeraj**
-
-🎓 Computer Engineering Diploma Student
-🐍 Python Developer
-🚀 Learning Software Development and Building Projects
+If you want, I can:
+- Update any project descriptions or filenames to match the exact file names in the repo.
+- Add a requirements.txt for projects that need external packages.
+- Split this README into per-project README files and a concise top-level index.
