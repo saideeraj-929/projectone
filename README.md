@@ -33,7 +33,6 @@ A Python tool that checks password strength and provides suggestions for improve
 
 * Rates passwords as Weak, Medium, or Strong
 * Checks:
-
   * Minimum length
   * Uppercase letters
   * Lowercase letters
@@ -43,6 +42,12 @@ A Python tool that checks password strength and provides suggestions for improve
 ### Technologies Used
 
 * Python
+
+### Run
+
+```bash
+python password_checker.py
+```
 
 ---
 
@@ -59,6 +64,12 @@ A simple Python chatbot that responds with fun emojis.
 ### Technologies Used
 
 * Python
+
+### Run
+
+```bash
+python Chat_boat.py
+```
 
 ---
 
@@ -78,6 +89,12 @@ A Python project that manages student records using file handling.
 
 * Python
 * File Handling
+
+### Run
+
+```bash
+python student_record_manager.py
+```
 
 ---
 
@@ -99,12 +116,8 @@ A simple quiz game made using Python.
 ### Run
 
 ```bash
-python quiz.py
+python Python_quiz_game.py
 ```
-
-### Screenshot
-
-![Quiz Game Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Screenshot%202026-06-03%20184607.png?raw=true)
 
 ---
 
@@ -131,10 +144,6 @@ A menu-driven calculator written in Python.
 python calculator.py
 ```
 
-### Screenshot
-
-![Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Calculator%20screenshot.png?raw=true)
-
 ---
 
 ## 7. 🔐 Simple Login System
@@ -157,12 +166,12 @@ A beginner-friendly Python login and registration system using file handling.
 ### Run
 
 ```bash
-python login.py
+python login_system.py
 ```
 
 ### Screenshot
 
-![Login System Screenshot](https://github.com/saideeraj-929/projectone/blob/main/login%20system%20screenshot.png?raw=true)
+![Login System Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Greetings%20screenshot.png?raw=true)
 
 ---
 
@@ -184,9 +193,11 @@ A GUI calculator built using Python and Tkinter.
 * Python
 * Tkinter
 
-### Screenshot
+### Run
 
-![Tkinter Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Screenshot%202026-06-07%20125921.png?raw=true)
+```bash
+python GUI_Calculator_app.py
+```
 
 ---
 
@@ -212,16 +223,253 @@ A simple Password Manager application built using Python and Tkinter.
 ### Run
 
 ```bash
-python main.py
+python Password_maneger.py
+```
+
+---
+
+## 10. 📅 Age Calculator
+
+Calculate age based on birth date input.
+
+### Features
+
+* Calculate exact age
+* User-friendly interface
+* Date validation
+* Display age in years, months, and days
+
+### Technologies Used
+
+* Python
+* Tkinter
+
+### Run
+
+```bash
+python Age_Calculator.py
 ```
 
 ### Screenshot
 
-![Password Manager Screenshot](https://github.com/saideeraj-929/projectone/blob/main/password%20maneger%20screenshot.png?raw=true)
+![Age Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Age%20calculator%20screenshot.png?raw=true)
 
 ---
 
-# 🛠️ Getting Started
+## 11. 📊 Attendance Management System
+
+A system to manage and track attendance records.
+
+### Features
+
+* Record attendance
+* View attendance records
+* Generate reports
+* File storage system
+
+### Technologies Used
+
+* Python
+* File Handling
+
+### Run
+
+```bash
+python Attendance_Management_System.py
+```
+
+### Screenshot
+
+![Attendance System Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Attendance%20system%20screenshot.png?raw=true)
+
+---
+
+## 12. 💪 BMI Calculator App
+
+A Body Mass Index calculator with GUI.
+
+### Features
+
+* Calculate BMI
+* Health category display
+* User-friendly interface
+* Metric and imperial unit support
+
+### Technologies Used
+
+* Python
+* Tkinter
+
+### Run
+
+```bash
+python BMI_App.py
+```
+
+### Screenshot
+
+![BMI Calculator Screenshot](https://github.com/saideeraj-929/projectone/blob/main/BMI%20screenshot.png?raw=true)
+
+---
+
+## 13. 🏦 Bank Management System
+
+A complete banking system with account management.
+
+### Features
+
+* Create account
+* Deposit/Withdraw money
+* View balance
+* Transaction history
+* File storage system
+
+### Technologies Used
+
+* Python
+* File Handling
+
+### Run
+
+```bash
+python Bank_Management_System.py
+```
+
+### Screenshot
+
+![Bank System Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Bank%20system%20screenshot.png?raw=true)
+
+---
+
+## 14. 💰 Expenses Tracker
+
+Track your daily expenses with ease.
+
+### Features
+
+* Add expense entries
+* Categorize expenses
+* View total spending
+* Generate expense reports
+* File storage system
+
+### Technologies Used
+
+* Python
+* File Handling
+
+### Run
+
+```bash
+python Expenses_Tracker.py
+```
+
+---
+
+## 15. 📚 Library Management System
+
+Manage library records and borrowing system.
+
+### Features
+
+* Add books to library
+* Issue books
+* Return books
+* View available books
+* Member management
+* File storage system
+
+### Technologies Used
+
+* Python
+* File Handling
+
+### Run
+
+```bash
+python Library_Management_Record.py
+```
+
+### Screenshot
+
+![Library Management Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Library%20Management%20screenshot.png?raw=true)
+
+---
+
+## 16. 🎯 Greetings App
+
+A simple greeting application.
+
+### Features
+
+* Time-based greetings
+* Personalized messages
+* Terminal-based interface
+
+### Technologies Used
+
+* Python
+
+### Run
+
+```bash
+python greetings_app.py
+```
+
+### Screenshot
+
+![Greetings Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Greetings%20screenshot.png?raw=true)
+
+---
+
+## 17. ✅ To-Do List App
+
+A GUI-based task management application.
+
+### Features
+
+* Add tasks
+* Mark tasks complete
+* Delete tasks
+* Save tasks to file
+* Load tasks from file
+* User-friendly interface
+
+### Technologies Used
+
+* Python
+* Tkinter
+
+### Run
+
+```bash
+python To_Do_List_App.py
+```
+
+---
+
+## 18. 🌤️ Weather App
+
+Display weather information for different locations.
+
+### Features
+
+* Get current weather
+* Display temperature
+* Show weather conditions
+* API integration
+
+### Technologies Used
+
+* Python
+
+### Screenshot
+
+![Weather App Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Weather%20app%20screenshot.png?raw=true)
+
+---
+
+## 🛠️ Getting Started
 
 Clone the repository:
 
@@ -229,6 +477,26 @@ Clone the repository:
 git clone https://github.com/saideeraj-929/projectone.git
 cd projectone
 ```
+
+### Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 📸 Screenshots
+
+All project screenshots are included in the repository:
+
+* Age calculator screenshot.png
+* Attendance system screenshot.png
+* BMI screenshot.png
+* Bank system screenshot.png
+* Greetings screenshot.png
+* Library Management screenshot.png
+* Weather app screenshot.png
 
 ---
 
