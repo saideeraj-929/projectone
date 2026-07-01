@@ -119,32 +119,7 @@ A simple quiz game made using Python.
 python Python_quiz_game.py
 ```
 
----
 
-## 6. 🧮 Python Calculator Program
-
-A menu-driven calculator written in Python.
-
-### Features
-
-* Addition
-* Subtraction
-* Multiplication
-* Division
-* Division-by-zero handling
-* Loop-based menu system
-
-### Technologies Used
-
-* Python
-
-### Run
-
-```bash
-python calculator.py
-```
-
----
 
 ## 7. 🔐 Simple Login System
 
