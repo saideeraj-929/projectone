@@ -62,6 +62,7 @@ A simple Python chatbot that responds with fun emojis.
 * Easy to customize
 * weather option
 * date option
+* time option
 
 ### Technologies Used
 
