@@ -60,6 +60,7 @@ A simple Python chatbot that responds with fun emojis.
 * Responds to greetings and emotions
 * Terminal-based chatbot
 * Easy to customize
+* weather option
 
 ### Technologies Used
 
