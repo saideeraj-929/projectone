@@ -374,31 +374,8 @@ python Library_Management_Record.py
 
 ---
 
-## 16. 🎯 Greetings App
 
-A simple greeting application.
 
-### Features
-
-* Time-based greetings
-* Personalized messages
-* Terminal-based interface
-
-### Technologies Used
-
-* Python
-
-### Run
-
-```bash
-python greetings_app.py
-```
-
-### Screenshot
-
-![Greetings Screenshot](https://github.com/saideeraj-929/projectone/blob/main/Greetings%20screenshot.png?raw=true)
-
----
 
 ## 17. ✅ To-Do List App
 
